@@ -5,8 +5,11 @@ Unfortunately i never found one so i create this repo for you with all instructi
 
 # Goals#
 
-Install everything necessary to get Gulp up and running in a glance.
-Compile multiple Sass files into one CSS file,  then apply vendor prefixes, minify.
-Use Browsersync to live reload your page as you code 
+* Install everything necessary to get Gulp up and running in a glance
+* Compile multiple Sass files into one CSS file  
+* Apply vendor prefixes 
+* minify
+* Use Browsersync to live reload your page as you code 
+* Get the first scss files to get started with simple mixins, variables, fonts. 
 
 
