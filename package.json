@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "A new set up for working enviroments ",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/Mariacakovacs/startgulp.git"
+  { "type"  : "git"
+  , "url"   : "https://github.com/Mariacakovacs/startgulp.git"
   },
+  
   "author": "Maria Kovacs",
   "license": "ISC",
+  
   "devDependencies": {
     "browser-sync": "^2.18.6",
     "gulp": "^3.9.1",

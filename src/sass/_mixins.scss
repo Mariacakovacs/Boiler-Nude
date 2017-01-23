@@ -1,0 +1,7 @@
+// use on the parent element  position: relative and include @include center on the child element that's all
+@mixin center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
