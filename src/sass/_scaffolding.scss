@@ -1,0 +1,13 @@
+// Define typography
+html {
+  font: $font-style $font-variant $font-weight #{$font-size}/#{$line-height} $font-family;
+}
+
+// Vertically center anything felx option
+.vertical-center {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
