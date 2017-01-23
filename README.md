@@ -1,6 +1,6 @@
 # Startgulp#
 
-Are you always looking to follow a straighforward tutorial with files and everything you need to get started with Gulp? been there! Unfortunately i never found one simple to follow , so i create this repo to share with all of you instructions and examples
+Are you always looking to follow a straighforward tutorial with files and everything you need to get started with Gulp? been there! Unfortunately I never found one simple to follow , so I create this repo to share with all of you instructions and examples
 
 # Goals#
 
