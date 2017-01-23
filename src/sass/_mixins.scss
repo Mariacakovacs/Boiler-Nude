@@ -1,7 +1,41 @@
-// use on the parent element  position: relative and include @include center on the child element that's all
-@mixin center {
+// use on the parent element  position: relative and include @include centered on the child element
+@mixin centered {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* another alternative  include @center(value, value) add horizontal or vertical to the html tag
+
+<div class="child horizontal"> </div> 
+
+.child { @include center; 
+
+    &.horizontal {
+        
+         @include center(true, false); first value set to true, sec set to false see below
+        
+    }
+
+ }
+
+*/
+@mixin center($horizontal: true, $vertical: true) {
+  position: absolute;
+
+  @if ($horizontal and $vertical) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  } @else if ($horizontal) {
+    left: 50%;
+    transform: translate(-50%, 0);
+
+  } @else if ($vertical) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+
