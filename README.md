@@ -16,7 +16,8 @@ Are you always looking to follow a straighforward tutorial with files and everyt
 
 * Basic knowledge of CSS, JS, HTML
 * Patience 
-* A bottle of wine 
+* A bottle of wine and/or a few beers 
+
 
 # Disclamer #
 
@@ -24,6 +25,9 @@ I try my best to document everything incl troubleshooting, if does not work for 
 
 # Spanish Speakers | Hispanoparlantes #
 Pronto creare una rama de este repositorio con todas las instrucciones en Espanol, y el link a un tutorial completo. 
+
+## Hope is of help and do not forget to star and share the repo  lots of loves  
+Mako## 
 
 
 
