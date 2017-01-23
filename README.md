@@ -1,7 +1,6 @@
 # Startgulp#
 
-Always looking to follow a straighforward tutorial with files and everything you need to get started with Gulp? me too.
-Unfortunately i never found one so i create this repo for you with all instructions examples
+Are you always looking to follow a straighforward tutorial with files and everything you need to get started with Gulp? been there! Unfortunately i never found one simple to follow , so i create this repo to share with all of you instructions and examples
 
 # Goals#
 
@@ -10,6 +9,14 @@ Unfortunately i never found one so i create this repo for you with all instructi
 * Apply vendor prefixes 
 * minify
 * Use Browsersync to live reload your page as you code 
-* Get the first scss files to get started with simple mixins, variables, fonts. 
+* Get the first scss files to get started with simple mixins, variables, fonts.
+* Get a cheatsheet 
+
+# You will need#
+
+* Basic knowledge of CSS, JS, HTML
+* Patience 
+* A bottle of wine 
+
 
 
