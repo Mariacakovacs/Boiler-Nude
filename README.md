@@ -1,16 +1,17 @@
 # Startgulp#
 
-Are you always looking to follow a straighforward tutorial with files and everything you need to get started with Gulp? been there! Unfortunately I never found one simple to follow , so I create this repo to share with all of you instructions and examples
+Are you always looking to follow a straighforward tutorial with files and everything you need to get started with Gulp and let's say a complete workflow? I've been there too! Unfortunately when i was a real beginner I never found one simple tutorial to follow, so here I am doing the job for you!
 
-# Goals#
+# My Goals#
 
 * Install everything necessary to get Gulp up and running in a glance
 * Compile multiple Sass files into one CSS file  
 * Apply vendor prefixes 
-* minify
-* Use Browsersync to live reload your page as you code 
+* Minify
+* Use Browsersync to live reload your page as you code across devices (Xcode Simulator too)
 * Get the first scss files to get started with simple mixins, variables, fonts.
 * Get a cheatsheet 
+* Create Git repo and version control your project
 
 # You will need#
 
