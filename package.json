@@ -1,7 +1,7 @@
 {
   "name": "startgulp",
   "version": "1.0.0",
-  "description": "A new set up for working enviroments ",
+  "description": "Setting Up a Gulp Workflow for Beginners",
   "main": "index.js",
   
   "scripts": {
@@ -10,7 +10,7 @@
   
   "repository" :
   { "type"  : "git"
-  , "url"   : "https://github.com/Mariacakovacs/startgulp.git"
+  , "url"   : "https://github.com/Mariacakovacs/Boiler-Nude.git"
   },
   
   "author": "Maria Kovacs",
