@@ -1,4 +1,4 @@
-# Startgulp#
+# Boiler-Nude#
 
 Are you always looking to follow a straighforward tutorial with files and everything you need to get started with Gulp and let's say a complete workflow? I've been there too! Unfortunately when i was a real beginner I never found one simple tutorial to follow, so here I am doing the job for you!
 
