@@ -10,8 +10,9 @@ Are you always looking to follow a straighforward tutorial with files and everyt
 * Minify
 * Use Browsersync to live reload your page as you code across devices (Xcode Simulator too)
 * Get the first scss files to get started with simple mixins, variables, fonts.
-* Get a cheatsheet 
-* Create Git repo and version control your project
+* Build a fully styled HTML documentUse sassdoc (gulp integration)
+* Create a cheatsheet with all relevant commands lines 
+* Create Git repo and version control the project
 
 # You will need#
 
