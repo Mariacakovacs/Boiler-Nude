@@ -1,6 +1,6 @@
 # Boiler-Nude#
 
-Are you always looking to follow a straighforward tutorial with files and everything you need to get started with Gulp and let's say a complete workflow? I've been there too! Unfortunately when i was a real beginner I never found one simple tutorial to follow, so here I am doing the job for you!
+Are you always looking to follow a straighforward tutorial with files and everything you need to get started with Gulp and let's say a complete workflow? I've been there too! Unfortunately when I was a real beginner I never found one simple tutorial to follow, so here I am doing the job for you!
 
 # My Goals#
 
@@ -22,7 +22,7 @@ Are you always looking to follow a straighforward tutorial with files and everyt
 
 # Disclamer #
 
-I try my best to document everything incl troubleshooting, if does not work for you , please open an issue , don't blame me and don't be mean. 
+I try my best to document everything incl troubleshooting, if does not work for you , please open an issue , don't blame me and don't be mean instead help me to find typos, errors or collaborate by giving me feedback. 
 
 # Spanish Speakers | Hispanoparlantes #
 Pronto creare una rama de este repositorio con todas las instrucciones en Espanol, y el link a un tutorial completo. 
