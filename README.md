@@ -1,7 +1,5 @@
 
-<p class="center" style="width:336px;">
-<img src="https://cloud.githubusercontent.com/assets/4595664/22326674/f652ffa0-e3b3-11e6-944d-11df6d252b12.jpg" />
-<p class="center" style="width:336px;">
+<p align="center">
 <img src="https://cloud.githubusercontent.com/assets/4595664/22326674/f652ffa0-e3b3-11e6-944d-11df6d252b12.jpg" />
 </p>
 # Boiler-Nude#
