@@ -68,7 +68,7 @@
 		
 	});
 
-    gulp.task('serve', ['sass', 'sassdoc'], function() {
+    gulp.task('serve', ['sass'], function() {
         
         browserSync.init({
                 

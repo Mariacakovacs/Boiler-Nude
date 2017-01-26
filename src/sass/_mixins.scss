@@ -1,26 +1,28 @@
-// use on the parent element  position: relative and include @include centered on the child element
-@mixin centered {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
+///
+/// Center a Block Element Horizontally or Vertically
+/// This mixin makes your life when centering block elements a cake
+/// you just need to define true or false depending on the centering you need
+/// The parent element should have the position set to relative
+///
+/// @author Christ Coyer codepen 
+///
+/// @example center foo 
+/// 
+/// .foo {
+///		@include center;
+///
+///     &.horizontal {
+///			@include center(true, false);
+///			
+///		}
+///
+///		&.vertical {
+///		@include center (false, true);
+///    }
+///		
+/// }
 
-/* another alternative  include @center(value, value) add horizontal or vertical to the html tag
 
-<div class="child horizontal"> </div> 
-
-.child { @include center; 
-
-    &.horizontal {
-        
-         @include center(true, false); first value set to true, secound set to false see below
-        
-    }
-
- }
-
-*/
 @mixin center($horizontal: true, $vertical: true) {
   position: absolute;
 
