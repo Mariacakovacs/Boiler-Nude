@@ -18,13 +18,13 @@
 	    //Find my sass files
 	    gulp.src('./src/sass/**/*.scss')
 	    
-		//initialize sourcemaps for better debugging
+		//Initialize sourcemaps for better debugging
 	    .pipe(sourcemaps.init())
 	    
-	    //run sass on those files and tell me if i have errors	
+	    //Run sass on those files and tell me if I have errors	
 	    .pipe(sass().on('error', sass.logError))
 	    
-	   //add vendor prefixes to the compile css
+	   //Add vendor prefixes to the compiled css
 	        .pipe(autoprefixer({
 	        
 	        	browsers: ['last 2 versions'],
@@ -33,24 +33,26 @@
 				
 			}))
 			
-			//minify the compiled css
+			//Minify the compiled css
         
 			.pipe(cssnano())
 			
-			//write the maps
+			//Write the maps
         
 			.pipe(sourcemaps.write('./'))
 			
-			//send all to css folder
+			//Send all to css folder
     
 			.pipe(gulp.dest('./dist/css/'))
 			
-			//reload my browser
+			//Reload my browser
         
 			.pipe(reload({stream: true}));
 			
       
     	});
+    	
+    	//Build documentation of this project
     	
     	gulp.task('sassdoc', function () {
 	    
@@ -67,6 +69,8 @@
 		
 		
 	});
+	
+	// Initialize the server via browser sync 
 
     gulp.task('serve', ['sass'], function() {
         
@@ -76,16 +80,17 @@
         
         });
         
-        
+        //Watch for changes on my scss files 
         gulp.watch('./src/sass/**/*.scss', ['sass']);
         
+        // Watch for changes on my html files
         gulp.watch("*.html").on('change', browserSync.reload);
 
         
     });
     
      
-    
+    // Run the serve taks which includes the sass task as a default task with command gulp
    	gulp.task('default', ['serve']);
     
     
