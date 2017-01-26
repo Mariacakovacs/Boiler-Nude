@@ -1,27 +1,24 @@
 {
-  "name": "startgulp",
+  "name": "Boiler Nude",
   "version": "1.0.0",
   "description": "Setting Up a Gulp Workflow for Beginners",
   "main": "index.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
-  "repository" :
-  { "type"  : "git"
-  , "url"   : "https://github.com/Mariacakovacs/Boiler-Nude.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mariacakovacs/Boiler-Nude.git"
   },
-  
   "author": "Maria Kovacs",
   "license": "ISC",
-  
   "devDependencies": {
     "browser-sync": "^2.18.6",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-cssnano": "^2.1.2",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.4.0"
+    "gulp-sourcemaps": "^2.4.0",
+    "sassdoc": "^2.1.20"
   }
 }

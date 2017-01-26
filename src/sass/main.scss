@@ -1,7 +1,15 @@
 /* Main SCSS File  should contain just imports */
 
-// Base
+/// Base
 @import "variables";
+@import "base";
 
-// Components
+/// Components
 @import "scaffolding";
+
+
+
+
+body {
+	background: purple;
+}
