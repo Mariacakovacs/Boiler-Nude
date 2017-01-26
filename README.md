@@ -1,5 +1,6 @@
 
-https://cloud.githubusercontent.com/assets/4595664/22326726/249e32a8-e3b4-11e6-98e7-b26df8077d70.png
+
+![boiler-nude](https://cloud.githubusercontent.com/assets/4595664/22326674/f652ffa0-e3b3-11e6-944d-11df6d252b12.jpg)
 # Boiler-Nude#
 
 Are you always looking to follow a straighforward tutorial with files and everything you need to get started with Gulp and let's say a complete workflow? I've been there too! Unfortunately when I was a real beginner I never found one simple tutorial to follow, so here I am doing the job for you! 
