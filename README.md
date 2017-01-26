@@ -30,7 +30,7 @@ All you need to do is clone the repo , head to the wiki for the step by step gui
 I try my best to document everything incl troubleshooting, if does not work for you , please open an issue , don't blame me and don't be mean instead help me to find typos, errors or collaborate by giving me feedback. 
 
 # Spanish Speakers | Hispanoparlantes #
-Pronto creare una rama de este repositorio con todas las instrucciones en Espanol, y el link a un tutorial completo. 
+Pronto creare una rama de este repositorio con todas las instrucciones en Espanol. 
 
 
 ### Happy Coding with love Mako ! ###
