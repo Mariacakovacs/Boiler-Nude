@@ -41,8 +41,7 @@
     gulp.task('sassdoc', function () {
 	    
 	    var options = {
-		    
-		 	dest: 'docs',
+		    dest: 'docs',
 		 	verbose: true,
 		 };
 	    
