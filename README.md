@@ -6,9 +6,9 @@
 
 Are you always looking to follow a straighforward tutorial with files and everything you need to get started with Gulp and let's say a complete workflow? I've been there too! Unfortunately when I was a real beginner I never found one simple tutorial to follow, so here I am doing the job for you! 
 
-With Boiler-Nude your are setting Up a Complete Gulp Workflow, getting started with the basic and important features of sass 
+With Boiler-Nude your are setting Up a Complete Gulp Workflow, getting started with the basic and important features of sass, 
 building a fully styled and beautiful HTML document using sassdoc Gulp integration, learning the basics of Git on the go and controlling all the process with your new best friend the terminal!
-All you need to do is clone the repo , head to the wiki for the step by step guide and start working. 
+All you need to do is clone the repo, head to the wiki, follow the step by step guide and start working. 
 
 # My Goals#
 
