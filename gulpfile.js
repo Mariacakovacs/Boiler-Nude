@@ -25,17 +25,10 @@
 	    .pipe(sass().on('error', sass.logError))
 	    
 	   //Add vendor prefixes to the compiled css
-	        .pipe(autoprefixer({
-	        
-	        	browsers: ['last 2 versions'],
-	      
-				cascade: false
-				
-			}))
+	        .pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
 			
 			//Minify the compiled css
-        
-			.pipe(cssnano())
+            .pipe(cssnano())
 			
 			//Write the maps
         
