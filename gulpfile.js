@@ -9,9 +9,6 @@
     var reload = browserSync.reload;
     var sassdoc = require('sassdoc');
     
-    
-    
-    
      //sass task   
     gulp.task('sass', function () {
 	    
@@ -25,41 +22,33 @@
 	    .pipe(sass().on('error', sass.logError))
 	    
 	   //Add vendor prefixes to the compiled css
-	        .pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
+	   .pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
 			
-			//Minify the compiled css
-            .pipe(cssnano())
+	   //Minify the compiled css
+       .pipe(cssnano())
 			
-			//Write the maps
-        
-			.pipe(sourcemaps.write('./'))
+	   //Write the maps
+	   .pipe(sourcemaps.write('./'))
 			
-			//Send all to css folder
-    
-			.pipe(gulp.dest('./dist/css/'))
+	   //Send all to css folder
+	   .pipe(gulp.dest('./dist/css/'))
 			
-			//Reload my browser
-        
-			.pipe(reload({stream: true}));
-			
-      
-    	});
+		//Reload my browser
+        .pipe(reload({stream: true}));
+	});
     	
-    	//Build documentation of this project
-    	
-    	gulp.task('sassdoc', function () {
+    //Build documentation of this project
+    gulp.task('sassdoc', function () {
 	    
-	     var options = {
+	    var options = {
+		    
 		 	dest: 'docs',
 		 	verbose: true,
-		 	
-		 	
 		 };
 	    
 		return gulp.src('./src/sass/**/*.scss')
 		
 		.pipe(sassdoc(options))
-		
 		
 	});
 	
@@ -71,10 +60,10 @@
                 
            server: "./"
         
-        });
+    });
         
-        //Watch for changes on my scss files 
-        gulp.watch('./src/sass/**/*.scss', ['sass']);
+    //Watch for changes on my scss files 
+    gulp.watch('./src/sass/**/*.scss', ['sass']);
         
         // Watch for changes on my html files
         gulp.watch("*.html").on('change', browserSync.reload);
@@ -82,7 +71,6 @@
         
     });
     
-     
     // Run the serve taks which includes the sass task as a default task with command gulp
    	gulp.task('default', ['serve']);
     
