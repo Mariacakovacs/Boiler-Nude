@@ -38,3 +38,4 @@ Thumbs.db
 
 # ignore node modules
 node_modules/
+dist/
