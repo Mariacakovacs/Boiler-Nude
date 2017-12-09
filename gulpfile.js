@@ -36,6 +36,7 @@
 		//Reload my browser
         .pipe(reload({stream: true}));
 	});
+	
     	
     //Build documentation of this project
     gulp.task('sassdoc', function () {
@@ -59,10 +60,10 @@
                 
            server: "./"
         
-    });
+    	});
         
-    //Watch for changes on my scss files 
-    gulp.watch('./src/sass/**/*.scss', ['sass']);
+		//Watch for changes on my scss files 
+		gulp.watch('./src/sass/**/*.scss', ['sass']);
         
         // Watch for changes on my html files
         gulp.watch("*.html").on('change', browserSync.reload);
