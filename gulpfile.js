@@ -65,7 +65,7 @@
 		//Watch for changes on my scss files 
 		gulp.watch('./src/sass/**/*.scss', ['sass']);
         
-        // Watch for changes on my html files
+        // Watch for changes on my html files testest ing 
         gulp.watch("*.html").on('change', browserSync.reload);
 
         
