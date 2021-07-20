@@ -1,11 +1,11 @@
 'use strict';
 
-    var gulp = require('gulp'); //require gulp main
+    var gulp = require('gulp'); //require gulp main node 
     var sass = require('gulp-sass'); //require sass plugin
-    var cssnano = require('gulp-cssnano');// to minify
-    var sourcemaps = require('gulp-sourcemaps'); // map css origin
-    var autoprefixer = require('gulp-autoprefixer'); // autoprefix compiled css 
-    var browserSync = require('browser-sync').create();//required and create instance of bs
+    var cssnano = require('gulp-cssnano');// to minify see documentation
+    var sourcemaps = require('gulp-sourcemaps'); // map css origin to map the source of the uncomplile code
+    var autoprefixer = require('gulp-autoprefixer'); // autoprefix compiled css - to no worry about vendor prefixes
+    var browserSync = require('browser-sync').create();//required and create instance of bs - as a local server
     var reload = browserSync.reload;
     var sassdoc = require('sassdoc');
     
