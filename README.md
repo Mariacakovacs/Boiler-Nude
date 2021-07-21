@@ -10,7 +10,7 @@ With Boiler-Nude your are setting Up a Complete Gulp Workflow, getting started w
 building a fully styled and beautiful HTML document using sassdoc Gulp integration, learning the basics of Git on the go and controlling all the process with your new best friend the terminal!
 All you need to do is clone the repo, head to the wiki, follow the step by step guide and start working. 
 
-Check out the entire tutorial as a blog post at http://iflovecoding.com/2017/02/07/setting-up-a-complete-gulp-workflow-for-beginners/ or head to the WIKI of the repo where all instructions are as well attached.
+head to the WIKI of the repo where all instructions are as well attached.
 
 # My Goals#
 
